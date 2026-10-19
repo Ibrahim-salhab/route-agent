@@ -1,0 +1,58 @@
+# Environment files
+.env
+.env.local
+*.env
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vector Database & Data
+**/data/chroma/*
+!**/data/chroma/.gitkeep
+*.chroma
+*.bin
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Local Documentation & Interview files
+Agent.md
+Design.md
+INTERVIEW_PREP_COMPLETE_GUIDE.md
+INTERVIEW_QUESTIONS.md
